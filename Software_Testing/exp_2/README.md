@@ -51,6 +51,7 @@ Add the following script to your `package.json`:
   "test": "jest"
 }
 ```
+![Alt text](./images/exp2.3.png)
 
 
 ## 6. Writing Tests
