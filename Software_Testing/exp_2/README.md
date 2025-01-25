@@ -28,7 +28,7 @@ To enhance the Jest experience in VS Code:
 2. Go to the **Extensions** panel (`Ctrl + Shift + X` or `Cmd + Shift + X` on macOS).
 3. Search for **Jest** and install it (Official Jest extension by Orta).
 
-![Alt text](exp2/images/exp2.1.png)
+![Alt text](./images/exp2_1.png)
 
 
 ## 4. Project Folder Structure
