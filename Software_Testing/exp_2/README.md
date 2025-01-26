@@ -51,7 +51,7 @@ Add the following script to your `package.json`:
   "test": "jest"
 }
 ```
-![Alt text](./images/exp2.3.png)
+![Alt text](./images/exp2.2.png) 
 
 
 ## 6. Writing Tests
@@ -100,3 +100,4 @@ npm test
 ## 8. Conclusion
 You have now set up Jest for testing in VS Code, written test cases, and run them successfully. 🎉
 
+![Alt text](./images/exp2.3.png) 

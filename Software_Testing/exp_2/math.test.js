@@ -1,6 +1,5 @@
 // calculater.test.js
 const { add, substract, multiply, divide } = require('./math');
-const img = require("./images/exp2.1.png")
 
 
 describe('Calculator functions', () => {
