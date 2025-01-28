@@ -162,7 +162,8 @@ public class sessionBackend extends HttpServlet {
 ## 8. Conclusion
 You have successfully built a **Java Servlet-based session management system**. Users log in via the **frontend HTML form**, and the backend **tracks their session and auto-expires it** after 10 seconds. 🚀
 
-[Watch Video](./image_&_video/exp_2_demo.mp4)
+[![Video Title](https://img.youtube.com/vi/ONKsMYVRHuU/0.jpg)](https://www.youtube.com/watch?v=ONKsMYVRHuU)
+
 
 
 🔹 **Next Steps:** Add **session tracking for user authentication** and integrate **database storage for login credentials**.
