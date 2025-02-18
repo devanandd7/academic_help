@@ -92,6 +92,8 @@ Allow to download .
    ```
 ![Alt text](./images_&_worksheet/here%20i%20am%20paste%20un-zip%20file%20(1).png)
 
+
+
 If you're unable to find the project directory, you can open the IDE, create a new project, hover over the project, and copy the path. Then paste the extracted files into that path.
 
 
@@ -119,7 +121,7 @@ If you're using IntelliJ IDEA, some pop-up windows may appear asking for permiss
 ## Step 6: Watch Setup Video
 
 For step-by-step instructions on how to configure your environment and run the code, please watch the following video:  
-[Video Link]
+[Video Uploaded Soon]
 
 ---
 
