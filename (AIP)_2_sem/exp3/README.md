@@ -63,8 +63,8 @@ SHOW DATABASES;
 
 Download the zip files provided by me:
 
-1. **NetBeans** – ['./project_folder/NetBeans/EmployeeManagement']
-2. **IntelliJ IDEA** – ['./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System']
+1. **NetBeans** – ['./project_folder/NetBeans/EmployeeManagement'](./project_folder/NetBeans/EmployeeManagement)
+2. **IntelliJ IDEA** – ['./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System'](./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System)
 
 ---
 
