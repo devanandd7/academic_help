@@ -94,7 +94,10 @@ Allow to download .
 
 If you're unable to find the project directory, you can open the IDE, create a new project, hover over the project, and copy the path. Then paste the extracted files into that path.
 
-![Alt Video](./images_&_worksheet/Screen%20Recording%202025-02-18%20234044.mp4)
+
+see mouse hover -
+
+![Demo](./images_&_worksheet/Screen%20Recording%202025-02-18%20234044.gif)
 
 ---
 
