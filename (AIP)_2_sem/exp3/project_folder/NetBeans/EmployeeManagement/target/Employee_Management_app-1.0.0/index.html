@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee_Management_System</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello Users!</h1>
+        <h2> wanna add some employee details: </h2>
+
+        <form action="EmployeeServlet" method="post">
+            <label>Employee Name: <input type="text" name="name" required></label>
+            <br>
+            <br>
+            <label>Employee Department:  <input type="text" name="department" required></label>
+            <br>
+            <br>
+            <label>Employee Salary: <input type="number" name="salary" required></label>
+            <br>
+            <br>
+            <button type="submit">Submit Now </button>
+        </form>
+
+        <br>
+        <h2> click this button to get all the details from the database: </h2>
+        <button onclick="getData()"> get employee details </button>
+
+
+        <script>
+            function getData() {
+                window.location.href = "EmployeeServlet";
+            }
+        </script> 
+    </body>
+</html>

@@ -1,0 +1,1 @@
+import db from './project_folder/IntelliJ_Idea_ultimate/Employee_Management_System'

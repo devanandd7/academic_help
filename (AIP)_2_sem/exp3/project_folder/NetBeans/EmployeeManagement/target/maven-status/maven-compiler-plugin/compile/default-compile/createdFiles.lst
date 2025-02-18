@@ -1,0 +1,5 @@
+com\employee\model\Employee.class
+com\mycompany\employee_management_app\JakartaRestConfiguration.class
+com\mycompany\employee_management_app\resources\JakartaEE10Resource.class
+com\employee\service\EmployeeService.class
+com\employee\Servlet\EmployeeServlet.class
