@@ -67,6 +67,8 @@ Download the zip files provided by me:
 2. **IntelliJ IDEA** – ['./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System'](./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System)
 
 ---
+Allow to download .
+![Alt text](./images_&_worksheet/downloadZipImage.png)
 
 ## Step 3: Extract and Paste the Files
 
