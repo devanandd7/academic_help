@@ -120,6 +120,8 @@ For step-by-step instructions on how to configure your environment and run the c
 
 Once you have completed these steps, your setup will be ready. You can now start working on the project.
 
+Click on the image to play the video.
+
 ---
 [![Watch the Video -OUTPUT](https://img.youtube.com/vi/PikDAVc90XI/0.jpg)](https://www.youtube.com/watch?v=PikDAVc90XI)
 <!-- ## Setup & Installation Guide -->
