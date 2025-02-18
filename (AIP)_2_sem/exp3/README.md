@@ -13,7 +13,8 @@ Before you begin, ensure you have the following installed:
 
 2. **NetBeans / IntelliJ IDEA Ultimate**
    - [Download NetBeans](https://netbeans.apache.org/download/index.html)
-   - [Download IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/download/)
+   - [Download IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/download/) // If you are a student, activate your account using your university/college official email. Otherwise, you can opt for a 30-day trial.
+
 
 ---
 
