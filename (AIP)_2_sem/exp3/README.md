@@ -81,7 +81,7 @@ Allow to download .
    ```
    C:/Documents/NetBeans_Project/...
    ```
-
+![Alt text](./images_&_worksheet/here%20i%20am%20paste%20un-zip%20file.png)
 ### For IntelliJ IDEA:
 
 1. Unzip the downloaded file.
@@ -90,8 +90,11 @@ Allow to download .
    ```
    C:/Users/[Your_Folder_Name]/IdeaProject/...
    ```
+![Alt text](./images_&_worksheet/here%20i%20am%20paste%20un-zip%20file%20(1).png)
 
 If you're unable to find the project directory, you can open the IDE, create a new project, hover over the project, and copy the path. Then paste the extracted files into that path.
+
+![Alt Video](./images_&_worksheet/Screen%20Recording%202025-02-18%20234044.mp4)
 
 ---
 
