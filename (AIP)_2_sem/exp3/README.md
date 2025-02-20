@@ -65,7 +65,7 @@ SHOW DATABASES;
 Download the zip files provided by me:
 
 1. **NetBeans** – ['./project_folder/NetBeans/EmployeeManagement'](https://github.com/devanandd7/academic_help/blob/main/(AIP)_2_sem/exp3/project_folder/NetBeans/Employee_Management_System.zip)
-2. **IntelliJ IDEA** – ['./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System'](./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System)
+2. **IntelliJ IDEA** – ['./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System'](./project_folder/IntelliJ_Idea_ultimate/Employee_Management_System.zip)
 
 ---
 Allow to download .
@@ -92,9 +92,9 @@ Allow to download .
    ```
 ![Alt text](./images_&_worksheet/here%20i%20am%20paste%20un-zip%20file%20(1).png)
 
-### make some change in file 
+## Make some change in file 
    **Hibernet.cfg.xml**
-   Replace the pass with your MySQL password.
+     * Replace the pass with your MySQL password.
 
 If you're unable to find the project directory, you can open the IDE, create a new project, hover over the project, and copy the path. Then paste the extracted files into that path.
 
