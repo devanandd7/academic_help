@@ -43,7 +43,7 @@ CREATE TABLE employees (
 INSERT INTO employees (name, department, salary) VALUES
 ('David ', 'Engineering', 80000),
 ('dev ', 'Marketing', 65000),
-('Emily Johnson', 'Sales', 70000),
+('Emily Johnson', 'Sales', 70000);
 
 
 -- For deleting data from the database
@@ -92,7 +92,9 @@ Allow to download .
    ```
 ![Alt text](./images_&_worksheet/here%20i%20am%20paste%20un-zip%20file%20(1).png)
 
-
+### make some change in file 
+   **Hibernet.cfg.xml**
+   Replace the pass with your MySQL password.
 
 If you're unable to find the project directory, you can open the IDE, create a new project, hover over the project, and copy the path. Then paste the extracted files into that path.
 
