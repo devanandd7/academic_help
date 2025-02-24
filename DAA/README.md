@@ -152,6 +152,116 @@ class Kruskal {
 
 ### **Kruskal's Algorithm - Code Flow Explanation**
 
+# 🚀 Kruskal's Algorithm - Step-by-Step Guide
+
+## 1️⃣ Sort the Edges
+- Arrange all edges in ascending order of weight.
+- Sorting helps in selecting the minimum weighted edges first.
+
+## 2️⃣ Use the Disjoint Set (Union-Find)
+- Every vertex is treated as a separate set at the beginning.
+- A Disjoint Set data structure helps in:
+  - **Find operation**: Determines the root parent of a node.
+  - **Union operation**: Merges two sets if they are not already connected.
+- This ensures that no cycles are formed while adding edges.
+
+## 3️⃣ Pick the Smallest Edge
+- Iterate through the sorted edges:
+  - If adding the edge does not form a cycle, add it to the MST.
+  - Use **Find** to check if the two vertices belong to the same set.
+  - If they belong to different sets, use **Union** to merge them.
+  - If they belong to the same set, skip the edge (to avoid cycles).
+
+## 4️⃣ Stop When MST Has (V - 1) Edges
+- The MST must contain exactly **(V - 1)** edges (where **V** = number of vertices).
+- Once we have **V - 1** edges in the MST, we stop.
+
+---
+
+## 📌 Example to Understand Kruskal’s Algorithm
+
+### 🔹 Graph Input (Undirected Weighted Graph)
+```
+    (0)---10---(1)
+     |  \      |
+    6|   5\    |15
+     |      \  |
+    (2)---4---(3)
+```
+
+### 🔹 Edge List Representation
+| Edge  | Weight |
+|-------|--------|
+| (0,1) | 10     |
+| (0,2) | 6      |
+| (0,3) | 5      |
+| (1,3) | 15     |
+| (2,3) | 4      |
+
+---
+
+## 🔹 Step-by-Step Execution
+
+### Step 1️⃣: Sort the Edges by Weight
+Sorted edges:
+```
+(2,3) → 4  
+(0,3) → 5  
+(0,2) → 6  
+(0,1) → 10  
+(1,3) → 15  
+```
+
+### Step 2️⃣: Initialize Disjoint Set
+Initially, each vertex is its own parent:
+```
+Parent = [0,1,2,3]  
+Rank =   [0,0,0,0]
+```
+
+### Step 3️⃣: Process Edges (Using Union-Find)
+✅ **Pick the smallest edge: (2,3) → 4**
+- Find(2) = 2, Find(3) = 3 → Different sets
+- Union(2,3): Merge sets → **Parent[3] = 2**
+- ✅ Add **(2,3) to MST**
+
+✅ **Next edge: (0,3) → 5**
+- Find(0) = 0, Find(3) = 2
+- Union(0,3): Merge sets → **Parent[0] = 2**
+- ✅ Add **(0,3) to MST**
+
+❌ **Next edge: (0,2) → 6** (Cycle detected, Skip)
+
+✅ **Next edge: (0,1) → 10**
+- Find(0) = 2, Find(1) = 1
+- Union(0,1): Merge sets → **Parent[1] = 2**
+- ✅ Add **(0,1) to MST**
+
+❌ **Next edge: (1,3) → 15** (Cycle detected, Skip)
+
+### Step 4️⃣: Stop (MST is Complete)
+- We have **3 edges (V-1 = 4-1 = 3)**, so we STOP.
+
+✅ **Final MST**
+```
+Edges in MST:  
+(2,3) → 4  
+(0,3) → 5  
+(0,1) → 10  
+```
+
+🛠 **Total Cost of MST = 4 + 5 + 10 = 19**
+
+---
+
+## 📝 Key Points
+- **Time Complexity**: **O(E log E)** (due to sorting + Disjoint Set operations).
+- **Why Disjoint Set?** To efficiently detect cycles using Find and Union.
+- **When to Stop?** When MST contains **V-1** edges.
+- **Why Sort Edges?** To ensure the minimum weight edges are considered first.
+
+
+
 #### **1. Creating the Kruskal Class and Main Function**
 
 1.1 - First, create a list of edges that stores edge details like `src`, `dest`, and `weight`.
