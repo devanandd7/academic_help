@@ -1,29 +1,27 @@
-## instructions will uploaded soon.
+# Experiment 4 - Employee Database Setup
 
-here my sql code - 
+## Requirements
+Before you begin, ensure you have the following installed:
 
+- **MySQL Workbench**  
+  [Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
-download the zip file . it render into another page and click on the **view raw** , wait for file download. 
+- **NetBeans / IntelliJ IDEA Ultimate**  
+  [Download NetBeans](https://netbeans.apache.org/download/index.html)  
+  [Download IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/) (If you are a student, activate your account using your university/college official email. Otherwise, you can opt for a 30-day trial.)
 
+## Step 1: Create a Database
+Once MySQL Workbench is installed and running, execute the following SQL commands to set up the database:
 
-
-## Project Overview
-This document provides instructions to set up and manage a MySQL database named `company`, which includes `employees`, `employeedetails`, and `users` tables. It also covers basic SQL operations like inserting, selecting, altering, and deleting data.
-
-## Prerequisites
-- MySQL Server installed (Download: https://dev.mysql.com/downloads/)
-- MySQL Workbench or any SQL client tool
-
-## Complete SQL Code
 ```sql
--- View existing databases
+-- Show existing databases
 SHOW DATABASES;
 
--- Create a new database
+-- Create database
 CREATE DATABASE company;
 USE company;
 
--- Create Employees Table
+-- Create employees table
 CREATE TABLE employees (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50),
@@ -31,7 +29,7 @@ CREATE TABLE employees (
     salary DOUBLE
 );
 
--- Create Employee Details Table
+-- Create employeedetails table
 CREATE TABLE employeedetails (
     id INT PRIMARY KEY,
     address VARCHAR(50),
@@ -39,14 +37,14 @@ CREATE TABLE employeedetails (
     FOREIGN KEY (id) REFERENCES employees(id) ON DELETE CASCADE
 );
 
--- Create Users Table
+-- Create users table
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL
 );
 
--- Insert Data into Employees Table
+-- Insert sample data into employees table
 INSERT INTO employees (name, department, salary) VALUES
     ('david', 'HR', 60000),
     ('dev', 'IT', 80000),
@@ -54,7 +52,7 @@ INSERT INTO employees (name, department, salary) VALUES
     ('deva', 'Sales', 72000),
     ('Devanand Utkarsh', 'Finance', 90000);
 
--- Insert Data into Employee Details Table
+-- Insert sample data into employeedetails table
 INSERT INTO employeedetails (id, address, phone) VALUES
     (1, 'moon', '123-456-7890'),
     (2, 'mars', '987-654-3210'),
@@ -62,33 +60,53 @@ INSERT INTO employeedetails (id, address, phone) VALUES
     (4, 'Venus', '444-567-8901'),
     (5, 'earth', '666-789-1234');
 
--- View Data
+-- Retrieve data from tables
 SELECT * FROM employees;
 SELECT * FROM employeedetails;
 SELECT * FROM users;
-SELECT * FROM students; -- (Assuming students table exists)
 
--- Drop Database and Tables
+-- Drop database and tables if needed
 DROP DATABASE company;
 DROP TABLE users;
 DROP TABLE employeedetails;
 DROP TABLE employees;
 
--- Truncate Tables (Remove Data Without Deleting Structure)
+-- Truncate tables (clear data without deleting structure)
 TRUNCATE TABLE users;
 TRUNCATE TABLE employees;
 TRUNCATE TABLE employeedetails;
 
--- Alter Tables
+-- Modify table columns
 ALTER TABLE employees MODIFY COLUMN id INT AUTO_INCREMENT PRIMARY KEY;
 ALTER TABLE employeedetails MODIFY COLUMN id INT PRIMARY KEY;
 ```
 
-## Notes
-- Ensure MySQL is running before executing the commands.
-- Use `USE company;` before performing table operations.
-- Deleting a row from `employees` will automatically delete corresponding rows from `employeedetails` due to `ON DELETE CASCADE`.
-- Be cautious while using `DROP TABLE` and `DROP DATABASE`, as they permanently delete data.
+## Step 2: Download Required Files
+Download the provided ZIP file containing the project structure:
 
-This document provides all necessary SQL commands in one place for easy execution. 🚀
+- **NetBeans Project**: `./Experiment_4/`
+
+## Step 3: Extract and Paste the Files
+### For NetBeans:
+1. Unzip the downloaded file.
+2. Copy the extracted folder.
+3. Paste it in the following directory:
+   ```
+   C:/Documents/NetBeansProjects/Experiment_4/
+   ```
+
+## Step 4: Open Your IDE
+1. Open NetBeans or IntelliJ IDEA.
+2. Import the project and ensure it is recognized correctly.
+
+## Step 5: Set Permissions (For IntelliJ IDEA Users)
+If you are using IntelliJ IDEA, allow any permission pop-ups to enable necessary dependencies to be downloaded in the background.
+
+## Step 6: Watch Setup Video
+For detailed instructions, refer to the setup video (if available):
+
+> **[Video Uploaded Soon]**
+
+## Step 7: All Done!
+Your setup is now complete. You can start working on the project. If you encounter issues, verify your MySQL configurations and project structure.
 
