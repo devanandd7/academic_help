@@ -3,6 +3,7 @@
 
 ## Overview
 **firstly understand what is Beans and EJB ? this will help you to clear EJB.**
+
  Beans-
         Beans in General: Beans are objects or components in Java that help simplify programming by encapsulating data and behavior. They are designed to be reusable, so developers can use them multiple times across different parts of an application without having to rewrite code. This leads to easier maintenance and a more organized codebase.
 
@@ -17,11 +18,12 @@ EJBs run inside an EJB container, which handles various aspects like transaction
 2. **Security**: EJB provides built-in security features, including authentication, authorization, and role-based access control.
 3. **Persistence**: EJB integrates seamlessly with Java Persistence API (JPA) to manage database operations and entity persistence.
 
-    (you can undertand In simple terms, persistence means saving data in such a way that it remains available after the program ends or the system is shut down, and can be retrieved when needed again.)
+    you can undertand In simple terms, persistence means saving data in such a way that it remains available after the program ends or the system is shut down, and can be retrieved when needed again.
+    
             Example -
-                    Storing user information in a database so that when the user logs in again, their profile data, preferences, etc., are available.
+                    *Storing user information in a database so that when the user logs in again, their profile data, preferences, etc., are available.*
 
-                    Saving application settings on a disk so that when the user opens the application again, it remembers the settings.
+                    *Saving application settings on a disk so that when the user opens the application again, it remembers the settings.*
 
 4. **Concurrency**: EJB provides built-in support for handling concurrent access to enterprise components, ensuring thread safety.
 
