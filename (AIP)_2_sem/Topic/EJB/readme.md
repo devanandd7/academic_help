@@ -25,15 +25,22 @@ EJBs run inside an EJB container, which handles various aspects like transaction
                      logs in again, their profile data, preferences,
                       etc., are available.*
 
-                    *Saving application settings on a disk so that when the user opens the application again, it remembers the settings.*
+                    *Saving application settings on a disk so that when the user 
+                    opens the application again, it remembers the settings.*
 
 4. **Concurrency**: EJB provides built-in support for handling concurrent access to enterprise components, ensuring thread safety.
 
- (Concurrency ensures that Multiple tasks (threads or users) can run in parallel.)
-    Example -
-             Without proper concurrency control, both users might see the same initial balance, withdraw money, and then deposit it, leading to an incorrect balance.
+  Concurrency ensures that Multiple tasks (threads or users) can run in parallel.
 
-             With proper concurrency mechanisms like transactions or locks, the system ensures that only one user can modify the balance at a time, maintaining the integrity of the data and preventing any corruption or inconsistency.
+    Example -
+             *Without proper concurrency control, both users might see the same 
+             initial balance, withdraw money, and then deposit it, leading to 
+             an incorrect balance.*
+
+             *With proper concurrency mechanisms like transactions or locks,
+              the system ensures that only one user can modify the balance at
+              a time, maintaining the integrity of the data and preventing 
+              any corruption or inconsistency.*
 
 5. **Remote and Local Access**: EJB supports both local and remote client access, allowing components to be accessed from within the same application or over a network.
 
@@ -83,4 +90,4 @@ Session Beans are used to encapsulate business logic, and they are invoked by cl
 
 
 
-more data and video will be added soon .... happly leaning :)
+**more data and video will be added soon .... happly leaning :)**
