@@ -19,9 +19,11 @@ EJBs run inside an EJB container, which handles various aspects like transaction
 3. **Persistence**: EJB integrates seamlessly with Java Persistence API (JPA) to manage database operations and entity persistence.
 
     you can undertand In simple terms, persistence means saving data in such a way that it remains available after the program ends or the system is shut down, and can be retrieved when needed again.
-    
+
             Example -
-                    *Storing user information in a database so that when the user logs in again, their profile data, preferences, etc., are available.*
+                    *Storing user information in a database so that when the user
+                     logs in again, their profile data, preferences,
+                      etc., are available.*
 
                     *Saving application settings on a disk so that when the user opens the application again, it remembers the settings.*
 
