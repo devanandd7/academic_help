@@ -84,7 +84,10 @@ ALTER TABLE employeedetails MODIFY COLUMN id INT PRIMARY KEY;
 ## Step 2: Download Required Files
 Download the provided ZIP file containing the project structure:
 
-- **NetBeans Project**: `./Experiment_4/`
+- **NetBeans Project**:
+click and the download and click on the **View raw** or **downdload icon** and wait to download.
+
+ [Experiment_4](https://github.com/devanandd7/academic_help/blob/main/(AIP)_2_sem/exp_4/worksheet%20_%26_File/Experiment_4.zip)
 
 ## Step 3: Extract and Paste the Files
 ### For NetBeans:
@@ -102,7 +105,10 @@ Download the provided ZIP file containing the project structure:
 ## Step 5: Set Permissions (For IntelliJ IDEA Users)
 If you are using IntelliJ IDEA, allow any permission pop-ups to enable necessary dependencies to be downloaded in the background.
 
-## Step 6: Watch Setup Video
+## step 6: change database and password.
+change database and password in hibernate file, than you can fetch and put the data in database.
+
+## Step 7: Watch Setup Video
 For detailed instructions, refer to the setup video (if available):
 
 > **[Video Uploaded Soon]**
